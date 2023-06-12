@@ -25,6 +25,9 @@ under the License.
         xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
         name="${artifactId}"
 >
+    <requiredProperties>
+        <requiredProperty key="projectName" />
+    </requiredProperties>
     <fileSets>
         <fileSet>
             <directory>.mvn</directory>
@@ -34,6 +37,7 @@ under the License.
             <includes>
                 <include>.editorconfig</include>
                 <include>.gitignore</include>
+                <include>README.md</include>
             </includes>
         </fileSet>
         <fileSet filtered="true" packaged="true">
