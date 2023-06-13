@@ -1,4 +1,4 @@
-
+ 
 # Modern Java Archetype
 
 [![License][license-image]][license-url]
@@ -14,6 +14,7 @@
 
 This archetype create a Java project with the following pre-installed and pre-configured : 
 
+* Maven project with wrapper to make it easier to start contributing
 * Compiler set to JDK 17 - the latest LTS
 * Test suite with JUnit 5, Mockito, Datafaker, AssertJ and Jacoco
 * Ensuring Onion Architecture using ArchUnit
@@ -21,16 +22,18 @@ This archetype create a Java project with the following pre-installed and pre-co
 * Logging with SLF4J and LOG4J2
 * Fixed code style with EditorConfig
 * Git ignore file already filled with usual not-to-commit files from Java, Maven and Intellij IDEA
+
 * README template
 
 ## Installation
 
 1. Clone the project
-2. Run a `mvn clean install` to locally publish this archetype into your `.m2/repository` cache
+2. Run a `./mvnw clean install` to locally publish this archetype into your `.m2/repository` cache
 
 ## Usage example
 
 ```bash
+cd new_project
 mvn archetype:generate \
   -DarchetypeGroupId=fr.mbarberot \
   -DarchetypeArtifactId=modern-java-archetype \
@@ -47,7 +50,7 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 ## Development setup
 
 1. Clone the project
-2. Run `mvn clean verify`
+2. Run `./mvnw clean verify`
 
 ## Release History
 

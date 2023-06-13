@@ -38,6 +38,8 @@ under the License.
                 <include>.editorconfig</include>
                 <include>.gitignore</include>
                 <include>README.md</include>
+                <include>mvnw</include>
+                <include>mvnw.cmd</include>
             </includes>
         </fileSet>
         <fileSet filtered="true" packaged="true">

@@ -1,5 +1,6 @@
 package $package;
 
+import com.google.errorprone.annotations.Keep;
 import com.tngtech.archunit.junit.AnalyzeClasses;
 import com.tngtech.archunit.junit.ArchTest;
 import com.tngtech.archunit.lang.ArchRule;
@@ -9,6 +10,7 @@ import static com.tngtech.archunit.library.Architectures.onionArchitecture;
 @AnalyzeClasses(packages = "${package}")
 public class ArchUnitTest {
 
+    @Keep
     @ArchTest
     private final ArchRule generalArchitectureRule =
             onionArchitecture()

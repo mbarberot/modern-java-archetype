@@ -13,7 +13,7 @@ public class App {
 
     public String fizzbuzz(Integer i) {
 
-        log.info("Running Fizzbuzz with {}" i);
+        log.info("Running Fizzbuzz with {}", i);
 
         if (i % 15 == 0) {
             return "FizzBuzz";
