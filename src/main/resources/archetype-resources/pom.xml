@@ -83,6 +83,12 @@
             <version>${versions.arch-unit}</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.google.errorprone</groupId>
+            <artifactId>error_prone_annotations</artifactId>
+            <version>${versions.error-prone}</version>
+        </dependency>
     </dependencies>
 
     <build>
