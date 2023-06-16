@@ -21,8 +21,7 @@ This archetype create a Java project with the following pre-installed and pre-co
 * Checking code at compile-time with ErrorProne and NullAway
 * Logging with SLF4J and LOG4J2
 * Fixed code style with EditorConfig
-* Git ignore file already filled with usual not-to-commit files from Java, Maven and Intellij IDEA
-
+* Git configuration (gitignore and gitattributes)
 * README template
 
 ## Installation

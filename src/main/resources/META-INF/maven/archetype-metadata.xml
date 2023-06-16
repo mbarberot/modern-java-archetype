@@ -37,6 +37,7 @@ under the License.
             <includes>
                 <include>.editorconfig</include>
                 <include>.gitignore</include>
+                <include>.gitattributes</include>
                 <include>README.md</include>
                 <include>mvnw</include>
                 <include>mvnw.cmd</include>
